@@ -22,3 +22,10 @@ irecovery
 iproxy
 idevicename
 ideviceinfo
+
+# If its not open-source, whats this repo for?
+This repo contains (most of) the precompiled binaries for the tools included above. Jailm8.exe will download these files if you choose an option that requires them.
+
+It will only download the required files.
+
+If you have errors with a message saying windows couldn't run this program, delete the resources folder, and re-run the program
