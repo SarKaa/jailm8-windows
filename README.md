@@ -29,3 +29,8 @@ This repo contains (most of) the precompiled binaries for the tools included abo
 It will only download the required files.
 
 If you have errors with a message saying windows couldn't run this program, delete the resources folder, and re-run the program
+
+
+# sources
+Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
+[libimobiledevice](https://github.com/libimobiledevice-win32/imobiledevice-net), precompiled
