@@ -26,11 +26,12 @@ ideviceinfo
 # If its not open-source, whats this repo for?
 This repo contains (most of) the precompiled binaries for the tools included above. Jailm8.exe will download these files if you choose an option that requires them.
 
-It will only download the required files.
+It will only download the required files, so you won't get unnecessary files being downloaded
 
-If you have errors with a message saying windows couldn't run this program, delete the resources folder, and re-run the program
+If you have errors with a message saying windows couldn't run this program, delete the resources folder, and re-run jailm8.exe
 
 
 # sources
 Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
+
 [libimobiledevice](https://github.com/libimobiledevice-win32/imobiledevice-net), precompiled
