@@ -18,10 +18,15 @@ Project sandcastle android
 Project sandcastle linux
 
 libimobiledevice programs (precompiled .net version):
+
 irecovery
+
 iproxy
+
 idevicename
+
 ideviceinfo
+
 (not all are included, they're a bit hard to incorporate)
 
 # Can I use other libimobiledevice tools 
