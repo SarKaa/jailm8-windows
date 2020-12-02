@@ -1,6 +1,13 @@
 # jailm8-windows
 A multipurpose jailbreak tool for windows
 
+# introduction
+You've probably heard of [jailm8](https://github.com/SarKaa/jailm8), the bootable linux os that was optimised for checkra1n, and a few other features.
+
+I saw that a lot of people used my tool to run project sandcastle without a linux computer. I felt sorry for these people, as there were no native tools for psc for windows.
+
+I saw this with a lot of other tools as well. Tools that could have been compiled in a few minutes with cygwin.
+
 # What is it?
 So I had made [jailm8](https://github.com/SarKaa/jailm8), with all its extra features, but I was disappointed by the lack of tools available for windows. I saw that people had to resort to compiling tools themselves with cygwin, which is a horrible experience for some tools (project sandcastle I'm looking at you)
 
