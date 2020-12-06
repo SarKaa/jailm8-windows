@@ -34,7 +34,7 @@ idevicename
 
 ideviceinfo
 
-(not all are included, they're a bit hard to incorporate)
+(not all libimobiledevice utilites are included in the app itself, but can be used with the "diy" command, see below)
 
 # Can I use other libimobiledevice tools 
 YES!
