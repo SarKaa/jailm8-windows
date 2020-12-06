@@ -20,21 +20,21 @@ I got to work, compiling various different jailbreak tools, and making a small w
 # tools included
 I have pre-compiled the following programs, and they will be downloaded automatically when needed.
 
-Project sandcastle android
+•Project sandcastle android
 
-Project sandcastle linux
+•Project sandcastle linux
 
 libimobiledevice programs (precompiled .net version):
 
-irecovery
+  •irecovery
 
-iproxy
+  •iproxy
 
-idevicename
+  •idevicename
 
-ideviceinfo
+  •ideviceinfo
 
-(not all libimobiledevice utilites are included in the app itself, but can be used with the "diy" command, see below)
+ (not all libimobiledevice utilites are included in the app itself, but can be used with the "diy" command, see below)
 
 # Can I use other libimobiledevice tools 
 YES!
