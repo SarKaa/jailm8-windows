@@ -41,6 +41,27 @@ YES!
 
 You can use the diy command to move the libimobiledevice folder to the working directory (where jailm8.exe is). You can then cd into this directory with command prompt or powershell, and run the exe's. For documentation on the guides, check the [libimobiledevice website](https://github.com/libimobiledevice-win32/imobiledevice-net)
 
+# Commands:
+| Number in menu  | command | info |
+| --- | --- | ---|
+| 1.  | android  | boot android through project sandcastle |
+| 2. | linux  | boot linux through project sandcastle |
+| 3. | iproxy | forward your devices local ssh server to a port on your computer |
+| 4. | name | check which devices are connected, outputs connected devices names |
+| 5. | id | see device udid |
+| 6. | info | outputs a long list of details regarding your device |
+| 7. | pair | idevicepair utility |
+| 8. | provision | ideviceprovision utility |
+| 9. | date | see device date |
+| 10. | debug | idevicedebug utility |
+| 11. | diy | download libimobiledevice to working directory |
+| 12. | clean | deletes downloaded resources |
+| 13. | support | Join my discord server for more support, or if you just wanna talk about jb |
+| 14. | exit | guess |
+| 15. | menu | Shows app menu |
+| 16. | help | shows help text |
+| 17. | color | shows available colour schemes for jailm8 |
+
 # If its not open-source, whats this repo for?
 This repo contains (most of) the precompiled binaries for the tools included above. Jailm8.exe will download these files if you choose an option that requires them.
 
