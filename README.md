@@ -68,8 +68,9 @@ This repo contains (most of) the precompiled binaries for the tools included abo
 
 It will only download the required files, so you won't get unnecessary files being downloaded
 
-If you have errors with a message saying windows couldn't run this program, delete the resources folder, and re-run jailm8.exe
+If you have errors with a message saying windows couldn't run this program, use the clean command, and try again
 
+The resources folder also contains some saved data (colour schemes), so you will need to re-run the color command after cleaning the resources.
 
 # sources
 Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
