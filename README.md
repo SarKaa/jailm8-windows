@@ -42,6 +42,7 @@ YES!
 You can use the diy command to move the libimobiledevice folder to the working directory (where jailm8.exe is). You can then cd into this directory with command prompt or powershell, and run the exe's. For documentation on the guides, check the [libimobiledevice website](https://github.com/libimobiledevice-win32/imobiledevice-net)
 
 # Commands:
+You can put either the number or command into the jailm8 interface
 | Number in menu  | command | info |
 | --- | --- | ---|
 | 1.  | android  | boot android through project sandcastle |
