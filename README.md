@@ -62,6 +62,8 @@ You can put either the number or command into the jailm8 interface
 | 15. | menu | Shows app menu |
 | 16. | help | shows help text |
 | 17. | color | shows available colour schemes for jailm8 |
+| 18. | update | updates downloaded resources from this repo |
+|  | restart | restart's jailm8, this isn't that important a command so I didn't add a menu entry for this |
 
 # If its not open-source, whats this repo for?
 This repo contains (most of) the precompiled binaries for the tools included above. Jailm8.exe will download these files if you choose an option that requires them.
