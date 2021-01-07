@@ -50,7 +50,7 @@ You can put either the number or command into the jailm8 interface
 | 3. | iproxy | forward your devices local ssh server to a port on your computer |
 | 4. | name | check which devices are connected, outputs connected devices names |
 | 5. | id | see device udid |
-| 6. | info | outputs a long list of details regarding your device |
+| 6. | info | outputs a long list of details regarding your device. It can also dump these details to a text file |
 | 7. | pair | idevicepair utility |
 | 8. | provision | ideviceprovision utility |
 | 9. | date | see device date |
