@@ -75,7 +75,7 @@ If you have errors with a message saying windows couldn't run this program, use 
 The resources folder also contains some saved data (colour schemes), so you will need to re-run the color command after cleaning the resources.
 
 # Whats it written in?
-Actually, most of the functions are batch functions, but the overall app is held together by .NET. This is the reason the app looks a lot like batch scripts, but that allows for running the different commands within the app. Unfortunately, this makes running jailm8 off a usb (ironic) significantly slower, as windows has to suffer odd write speeds and stuff. 
+Actually, most of the functions are batch functions, but the overall app is held together by .NET. This is the reason the app looks a lot like batch scripts, but that allows for running the different commands within the app. Unfortunately, this makes running jailm8 off a usb (ironic) significantly slower, as windows has to suffer odd write speeds and stuff. This was originally gonna be written in c and compiled with cygwin, but then I was enlightened about the powers of bash to run commands within the app, so .NET and batch it was.
 
 # sources
 Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
