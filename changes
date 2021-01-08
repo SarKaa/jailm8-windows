@@ -1,2 +1,2 @@
 CHANGELOG:
-Now checks if ios device is connected, and if libimobiledevice is downloaded, and then prints ios version too
+Forgot to change the saved current version string, so it says theres an update available even if there isn't
