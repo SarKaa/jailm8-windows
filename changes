@@ -1,2 +1,2 @@
 CHANGELOG:
-This adds a small function that checks for updates, and to actually update, it opens a separate command prompt to download the latest release (with curl)
+Now shows this changelog when updating
