@@ -75,8 +75,15 @@ If you have errors with a message saying windows couldn't run this program, use 
 
 The resources folder also contains some saved data (colour schemes), so you will need to re-run the color command after cleaning the resources.
 
+This repo also hosts some of the files used for the update checker, these are not affected by the clean command.
+
 # Whats it written in?
 Actually, most of the functions are batch functions, but the overall app is held together by .NET. This is the reason the app looks a lot like batch scripts, but that allows for running the different commands within the app. Unfortunately, this makes running jailm8 off a usb (ironic) significantly slower, as windows has to suffer odd write speeds and stuff. This was originally gonna be written in c and compiled with cygwin, but then I was enlightened about the powers of bash to run commands within the app, so .NET and batch it was.
+
+# How does the auto-update checker work
+Jailm8 will automatically check for updates (when it displays the ASCII jailm8 text), and if there is an update available, it will ask if you want to update.
+
+If you select yes, it will close jailm8 and open a command prompt window where the old jailm8.exe will be deleted, and a new one will be downloaded. It should automatically start jailm8 again, unless something interferes with it.
 
 # sources
 Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
