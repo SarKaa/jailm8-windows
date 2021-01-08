@@ -63,6 +63,7 @@ You can put either the number or command into the jailm8 interface
 | 16. | help | shows help text |
 | 17. | color | shows available colour schemes for jailm8 |
 | 18. | update | updates downloaded resources from this repo |
+| 19. | version | prints current jailm8 version, latest jailm8 version and connected device's ios version if connected |
 |  | restart | restart's jailm8, this isn't that important a command so I didn't add a menu entry for this |
 
 # If its not open-source, whats this repo for?
