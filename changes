@@ -1,3 +1,6 @@
 CHANGELOG:
-Tried to fix the error in the version command that prints an empty "iOS version:" string even when no device is connected. (this still happens, idk why)
-Fixed bugging out when running info command without a connected device
+pipes info to more through batch so it is scrollable, use spacebar to go down a page, and use enter to go down one line
+now checks if internet is connected or not, so it prevents jailm8 crashing at several places when wifi isn't connected.
+re-arranged events to fully remove empty iOS version in version command (menu entry 19)
+Fixed grammar
+Mass cleanup of code, so its now only 71 kb, whereas the old version was 138 kb.
