@@ -1,10 +1,3 @@
 CHANGELOG:
-Now, instead of disabling jailm8 altogether when wifi isn't connected, jailm8 only disables the options where the required resources haven't been downloaded.
-To allow jailm8 to use its tools offline, you have to select your option at least once.
-If the menu resource hasn't been downloaded, then it is impossible for any other resource to have been downloaded, so jailm8 is disabled completely.
-The update option is also disabled when wifi isn't connected
-Added stats command (no menu entry). This shows: Downloaded resources, working directory, jailm8 version, WiFi status, connected devices (if libimobiledevice is downloaded)
-Stats command now shows how many files are in the resources folder, it even counts them for you
-Updated text shown when a command not run before is run when offline. It now says what option you tried to run instead of just "this option"
-Modified the version command, it is no longer part of the menu (so not 19 anymore), but is still available with the version command
-Cleaned up some startup functions
+Now checks if Apple Mobile Device Support 64 is installed when running libimobiledevice files. 
+If it isn't installed, jailm8 will ask if you want to install it, if you say yes, it will download the installer and start it.
