@@ -74,6 +74,7 @@ You can put either the number or command into the jailm8 interface
 |  | version | prints current jailm8 version, latest jailm8 version and connected device's ios version if connected |
 |  | restart | restart's jailm8, this isn't that important a command so I didn't add a menu entry for this |
 |  | stats | prints a list of useful stats from the app itself, like how many resources have been saved |
+|  | amds64 | Lets you trigger the Apple Mobile Device Support installer manually |
 
 # If its not open-source, whats this repo for?
 This repo contains (most of) the precompiled binaries for the tools included above. Jailm8.exe will download these files if you choose an option that requires them.
