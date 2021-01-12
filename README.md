@@ -103,3 +103,5 @@ If you select yes, it will close jailm8 and open a command prompt window where t
 Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
 
 [libimobiledevice](https://github.com/libimobiledevice-win32/imobiledevice-net), precompiled
+
+Apple Mobile Device Support 64 extracted from the iTunes setup EXE (from apple, not from the microsoft store)
