@@ -26,13 +26,21 @@ I have pre-compiled the following programs, and they will be downloaded automati
 
 libimobiledevice programs (precompiled .net version):
 
-  • irecovery
+  • idevicepair
 
   • iproxy
 
   • idevicename
 
   • ideviceinfo
+
+  • Idevice_id
+
+  • idevicedebug
+
+  • ideviceprovision
+
+  • idevicedate
 
  (not all libimobiledevice utilites are included in the app itself, but can be used with the "diy" command, see below)
 
@@ -77,6 +85,10 @@ If you have errors with a message saying windows couldn't run this program, use 
 The resources folder also contains some saved data (colour schemes), so you will need to re-run the color command after cleaning the resources.
 
 This repo also hosts some of the files used for the update checker, these are not affected by the clean command.
+
+Not all the files are kept in the source code part, some files are too big.
+
+For the links to every resource, check the links.txt file
 
 # Whats it written in?
 Actually, most of the functions are batch functions, but the overall app is held together by .NET. This is the reason the app looks a lot like batch scripts, but that allows for running the different commands within the app. Unfortunately, this makes running jailm8 off a usb (ironic) significantly slower, as windows has to suffer odd write speeds and stuff. This was originally gonna be written in c and compiled with cygwin, but then I was enlightened about the powers of bash to run commands within the app, so .NET and batch it was.
