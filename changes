@@ -1,10 +1,4 @@
 CHANGELOG:
-Fixed the error when updating resources, saying file could not be found when updating android.
-Allows you to manually access the Apple Mobile Device Support installer
-No longer deletes the Apple Mobile Device Support installer
-Adds an advanced help command (help system) only accessible by command (so no menu entry)
-Re-ordered the stats info (my OCD wanted all the true/false values together)
-Cleaned up clean function, now much smoother, and uses the [Y/N] questions like the rest of the app
-Now stops the residual commands appearing when running for most of the app
-The main menu screen is now case insensitive, so you can use the command style ui LiKe ThIs If YoU wAnT
-Completely rewritten in c (and still uses the same batch functions), so much smaller now. This should also fix the windows defender issues
+Fixed crashes that occurred when running the iDevice_id tool (5 in menu)
+Cleaned up some of the new c code
+Fixes some temp files not being deleted
