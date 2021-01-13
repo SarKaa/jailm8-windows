@@ -1,3 +1,10 @@
 CHANGELOG:
-Now checks if Apple Mobile Device Support 64 is installed when running libimobiledevice files. 
-If it isn't installed, jailm8 will ask if you want to install it, if you say yes, it will download the installer and start it.
+Fixed the error when updating resources, saying file could not be found when updating android.
+Allows you to manually access the Apple Mobile Device Support installer
+No longer deletes the Apple Mobile Device Support installer
+Adds an advanced help command (help system) only accessible by command (so no menu entry)
+Re-ordered the stats info (my OCD wanted all the true/false values together)
+Cleaned up clean function, now much smoother, and uses the [Y/N] questions like the rest of the app
+Now stops the residual commands appearing when running for most of the app
+The main menu screen is now case insensitive, so you can use the command style ui LiKe ThIs If YoU wAnT
+Completely rewritten in c (and still uses the same batch functions), so much smaller now. This should also fix the windows defender issues
