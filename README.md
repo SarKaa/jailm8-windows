@@ -92,7 +92,7 @@ Not all the files are kept in the source code part, some files are too big.
 For the links to every resource, check the links.txt file
 
 # Whats it written in?
-Actually, most of the functions are batch functions, but the overall app is held together by .NET. This is the reason the app looks a lot like batch scripts, but that allows for running the different commands within the app. Unfortunately, this makes running jailm8 off a usb (ironic) significantly slower, as windows has to suffer odd write speeds and stuff. This was originally gonna be written in c and compiled with cygwin, but then I was enlightened about the powers of bash to run commands within the app, so .NET and batch it was.
+Actually, most of the functions are batch functions, but the overall app is held together by c. Its compiled with mingw, and then compressed with upx.
 
 # How does the auto-update checker work
 Jailm8 will automatically check for updates (when it displays the ASCII jailm8 text), and if there is an update available, it will ask if you want to update.
