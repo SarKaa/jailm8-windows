@@ -55,7 +55,7 @@ You can use the diy command to move the libimobiledevice folder to the working d
 You can put either the number or command into the jailm8 interface
 | Number in menu  | command | info |
 | --- | --- | ---|
-| 1.  | android  | boot android through project sandcastle |
+| 1.  | android  | boot android through project sandcastle (once checkra1n is relased for windows, this will be merged with the next option) |
 | 2. | linux  | boot linux through project sandcastle |
 | 3. | iproxy | forward your devices local ssh server to a port on your computer |
 | 4. | name | check which devices are connected, outputs connected devices names |
