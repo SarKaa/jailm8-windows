@@ -1,5 +1,4 @@
 CHANGELOG:
-For some reason, the temp files still didn't work, now they do
-Cleaned up even more of the new code
-Fixed some problems with the update command (18)
-Fixed the temp files not getting deleted/updated
+Shrunk the app by removing useless headers
+Now resizes the window when restarting the app too
+Turns out I forgot to include irecovery in jailm8, now I added it as 12, and moved clean to 19
