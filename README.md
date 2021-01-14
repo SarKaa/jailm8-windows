@@ -17,6 +17,8 @@ Naturally, I looked around, no one had specific tools compiled for windows, ever
 
 I got to work, compiling various different jailbreak tools, and making a small windows app that could run these files. 
 
+In short, its a minimal frontend, that sets everything up for you, for various tools for windows.
+
 # tools included
 I have pre-compiled the following programs, and they will be downloaded automatically when needed.
 
