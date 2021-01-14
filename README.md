@@ -41,6 +41,8 @@ libimobiledevice programs (precompiled .net version):
   • ideviceprovision
 
   • idevicedate
+  
+  • irecovery
 
  (not all libimobiledevice utilites are included in the app itself, but can be used with the "diy" command, see below)
 
@@ -64,13 +66,14 @@ You can put either the number or command into the jailm8 interface
 | 9. | date | see device date |
 | 10. | debug | idevicedebug utility |
 | 11. | diy | download libimobiledevice to working directory |
-| 12. | clean | deletes downloaded resources |
+| 12. | irecovery | irecovery utility |
 | 13. | support | Join my discord server for more support, or if you just wanna talk about jb |
 | 14. | exit | guess |
 | 15. | menu | Shows app menu |
 | 16. | help | shows help text |
 | 17. | color | shows available colour schemes for jailm8 |
 | 18. | update | updates downloaded resources from this repo |
+| 19. | clean | deletes downloaded resources |
 |  | version | prints current jailm8 version, latest jailm8 version and connected device's ios version if connected |
 |  | restart | restart's jailm8, this isn't that important a command so I didn't add a menu entry for this |
 |  | stats | prints a list of useful stats from the app itself, like how many resources have been saved |
