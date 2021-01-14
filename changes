@@ -1,4 +1,5 @@
 CHANGELOG:
-Fixed crashes that occurred when running the iDevice_id tool (5 in menu)
-Cleaned up some of the new c code
-Fixes some temp files not being deleted
+For some reason, the temp files still didn't work, now they do
+Cleaned up even more of the new code
+Fixed some problems with the update command (18)
+Fixed the temp files not getting deleted/updated
