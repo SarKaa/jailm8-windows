@@ -98,7 +98,7 @@ Not all the files are kept in the source code part, some files are too big.
 For the links to every resource, check the links.txt file
 
 # Whats it written in?
-Actually, most of the functions are batch functions, but the overall app is held together by c. Its compiled with mingw. Most of the time, it will act like batch, but the C parts handle startup and exit. I highly suggest using the exit option (14 on menu) instead of simply pressing the cross, just to allow the app to close properly.
+Actually, most of the functions are batch functions, but the overall app is held together by c. This keeps the app nice and small, but also lets jailm8 integrate all the tools into the app much quicker. Its compiled with mingw. Most of the time, it will act like batch, but the C parts handle startup and exit. I highly suggest using the exit option (14 on menu) instead of simply pressing the cross, just to allow the app to close properly.
 
 # How does the auto-update checker work
 Jailm8 will automatically check for updates (when it displays the ASCII jailm8 text), and if there is an update available, it will ask if you want to update.
