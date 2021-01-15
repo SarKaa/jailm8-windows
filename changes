@@ -1,4 +1,6 @@
 CHANGELOG:
-Shrunk the app by removing useless headers
-Now resizes the window when restarting the app too
-Turns out I forgot to include irecovery in jailm8, now I added it as 12, and moved clean to 19
+Forgot to add irecovery to the help command, fixed now
+No longer says "More commands coming" in help
+Added ability to set a startup command
+Added a reset client to the startup command (it checks if you already have a configuration, and asks if you want to reset it)
+Added a line in stats saying if a start-up program is set
