@@ -1,6 +1,11 @@
 CHANGELOG:
-Forgot to add irecovery to the help command, fixed now
-No longer says "More commands coming" in help
-Added ability to set a startup command
-Added a reset client to the startup command (it checks if you already have a configuration, and asks if you want to reset it)
-Added a line in stats saying if a start-up program is set
+Made exit a bit more graceful
+Added the internet check to the amds64 installer
+Now doesn't quit the start-up configurator if an invalid command is entered
+Renamed the bold colour scheme to hazy
+Fixed bug with menu entries not being accepted in the start-up configurator
+Now adds an extra blank line after the menu when running a start-up command
+Now saves colour scheme and startup config in one prefs file, which is loaded in at startup
+Stats would crash with the new prefs file, so the "startup command set" detail was removed
+NOTE: if you have set a colour scheme or a start-up command, you will need to clean resources and set them again
+fixed empty prefs file appearing 
