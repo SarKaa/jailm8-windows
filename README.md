@@ -105,6 +105,9 @@ Jailm8 will automatically check for updates (when it displays the ASCII jailm8 t
 
 If you select yes, it will close jailm8 and open a command prompt window where the old jailm8.exe will be deleted, and a new one will be downloaded. It should automatically start jailm8 again, unless something interferes with it.
 
+# How is it so small?
+Its kept small by keeping all resources to be downloaded, so nothing is kept in the app itself, apart from links. The app itself doesn't have a gui, so theres no excess code needed. It is also kept small by using an optimum combination of C and Batch code, keeping the need for extra compilable code short. 
+
 # sources
 Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
 
