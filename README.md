@@ -68,7 +68,7 @@ You can put either the number or command into the jailm8 interface
 | 9. | date | see device date |
 | 10. | debug | idevicedebug utility |
 | 11. | diy | download libimobiledevice to working directory |
-| 12. | irecovery | irecovery utility |
+| 12. | irecovery | recovery utilities |
 | 13. | support | Join my discord server for more support, or if you just wanna talk about jb |
 | 14. | exit | guess |
 | 15. | menu | Shows app menu |
@@ -81,6 +81,7 @@ You can put either the number or command into the jailm8 interface
 |  | stats | prints a list of useful stats from the app itself, like how many resources have been saved |
 |  | amds64 | Lets you trigger the Apple Mobile Device Support installer manually |
 |  | startup | lets you set a command to be run automatically when starting jailm8 |
+|  | prefs | prints the saved prefs (if any) |
 
 # If its not open-source, whats this repo for?
 This repo contains (most of) the precompiled binaries for the tools included above. Jailm8.exe will download these files if you choose an option that requires them.

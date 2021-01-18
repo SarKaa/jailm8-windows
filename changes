@@ -1,11 +1,8 @@
 CHANGELOG:
-Made exit a bit more graceful
-Added the internet check to the amds64 installer
-Now doesn't quit the start-up configurator if an invalid command is entered
-Renamed the bold colour scheme to hazy
-Fixed bug with menu entries not being accepted in the start-up configurator
-Now adds an extra blank line after the menu when running a start-up command
-Now saves colour scheme and startup config in one prefs file, which is loaded in at startup
-Stats would crash with the new prefs file, so the "startup command set" detail was removed
-NOTE: if you have set a colour scheme or a start-up command, you will need to clean resources and set them again
-fixed empty prefs file appearing 
+added ideviceenterrecovery to the irecovery command, so you can now put your device into recovery mode
+now doesn't make a temp file for startup
+now uses a simple connection for commands using ideviceinfo, apart from ideviceinfo itself.
+It won't auto pair when using recovery now
+Also doesn't autopair when using version command
+Now allows you to see saved prefs with the "prefs" command
+Now checks if there is a prefs file, so doesn't show errors in colour command
