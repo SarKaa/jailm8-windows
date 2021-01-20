@@ -44,8 +44,8 @@ libimobiledevice programs (precompiled .net version):
 
   • idevicedate
   
-  • irecovery
-
+  • irecovery (with ideviceenterrecovery)
+  
  (not all libimobiledevice utilites are included in the app itself, but can be used with the "diy" command, see below)
 
 # Can I use other libimobiledevice tools 
