@@ -1,8 +1,8 @@
 CHANGELOG:
-added ideviceenterrecovery to the irecovery command, so you can now put your device into recovery mode
-now doesn't make a temp file for startup
-now uses a simple connection for commands using ideviceinfo, apart from ideviceinfo itself.
-It won't auto pair when using recovery now
-Also doesn't autopair when using version command
-Now allows you to see saved prefs with the "prefs" command
-Now checks if there is a prefs file, so doesn't show errors in colour command
+re-ordered update sequence so that changes are downloaded first, then jailm8.exe
+Now doesn't show the terminate batch job text
+Now allows you to exit with control c properly
+Now kills all child processes with control c too
+Now only kills the one jailm8 instance, although running 2 instances isn't supported at all
+Fine tuned ideviceinfo command, now doesn't rely on type and then more, now it only uses more
+Now shows percentage scrolled when using ideviceinfo
