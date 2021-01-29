@@ -1,8 +1,6 @@
 CHANGELOG:
-re-ordered update sequence so that changes are downloaded first, then jailm8.exe
-Now doesn't show the terminate batch job text
-Now allows you to exit with control c properly
-Now kills all child processes with control c too
-Now only kills the one jailm8 instance, although running 2 instances isn't supported at all
-Fine tuned ideviceinfo command, now doesn't rely on type and then more, now it only uses more
-Now shows percentage scrolled when using ideviceinfo
+removed unnecessary brackets in help text
+uses cleaner way to set working directory
+cleaned up the way the menu entries work
+now checks if an update is available with the update command too
+now added ideviceinstaller tool (need to update menu)
