@@ -1,6 +1,6 @@
 CHANGELOG:
-removed unnecessary brackets in help text
-uses cleaner way to set working directory
-cleaned up the way the menu entries work
-now checks if an update is available with the update command too
-now added ideviceinstaller tool (need to update menu)
+Now deletes menu when updating jailm8
+Now allows the sending of cli parameters
+Fixed installer not being recognised in startup
+Now allows you to change the jailm8 executable name without causing problems
+Added stats entry to save what jailm8 is saved as
