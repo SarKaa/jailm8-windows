@@ -1,6 +1,6 @@
 CHANGELOG:
-Now deletes menu when updating jailm8
-Now allows the sending of cli parameters
-Fixed installer not being recognised in startup
-Now allows you to change the jailm8 executable name without causing problems
-Added stats entry to save what jailm8 is saved as
+sped and cleaned up the running of all commands that require a download
+fine tuned some commands (like id) so much that they are almost instant
+Fixed cli paramter irecovery help showing an endless loop
+Now resets the colour when exitting jailm8
+Moved support to system commands as it doesn't need a menu entry
