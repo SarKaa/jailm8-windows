@@ -38,7 +38,7 @@ libimobiledevice programs (precompiled .net version):
 
   • Idevice_id
 
-  • idevicedebug
+  • futurerestore
 
   • ideviceprovision
 
@@ -68,7 +68,7 @@ You can put either the number or command into the jailm8 interface
 | 7. | pair | idevicepair utility |
 | 8. | provision | ideviceprovision utility |
 | 9. | date | see device date |
-| 10. | debug | idevicedebug utility |
+| 10. | futurerestore | futurerestore utility |
 | 11. | installer | ideviceinstaller utility | 
 | 12. | irecovery | recovery utilities |
 | 13. | diy | download libimobiledevice to working directory |
@@ -117,4 +117,6 @@ Project sandcastle binaries from [here](https://github.com/corellium/projectsand
 
 [libimobiledevice](https://github.com/libimobiledevice-win32/imobiledevice-net), precompiled
 
-Apple Mobile Device Support 64 extracted from the iTunes setup EXE (from apple, not from the microsoft store)
+Apple Mobile Device Support 64 extracted from the iTunes setup EXE (from apple, not from the microsoft store)#
+
+[Futurerestore](https://github.com/opa334/futurerestore)
