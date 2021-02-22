@@ -1,6 +1,16 @@
 CHANGELOG:
-sped and cleaned up the running of all commands that require a download
-fine tuned some commands (like id) so much that they are almost instant
-Fixed cli paramter irecovery help showing an endless loop
-Now resets the colour when exitting jailm8
-Moved support to system commands as it doesn't need a menu entry
+Made sure the menu function is run from the working directory
+Cleaned up the way some of the functions work
+Now added an option to let you run jailm8 from command prompt anywhere (clisetup)
+Allows you to use the ideviceinfo dump function from the cli interface
+Cleaned up the way control c works
+control c no longer kills all child processes
+Now allows creating a new, nested instance of jailm8 by fully restarting
+Changed the iproxy command so that it creates a new ssh windows and the iproxy connection simultaneously
+Added a loading indicator right at startup (only for running jailm8 without cli args), to allow for finding problems easily
+Now outputs all libimobiledevice errors to stdout instead of stderr
+Fixed jailm8 hanging at the ascii screen when wifi isn't connected
+Format the help texts properly
+Fixed menu entry for clean not working as expected
+Removed debug option as it wasn't as useful as the others
+Added futurerestore by opa instead of debug
