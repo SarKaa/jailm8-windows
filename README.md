@@ -85,6 +85,8 @@ You can put either the number or command into the jailm8 interface
 |  | startup | lets you set a command to be run automatically when starting jailm8 |
 |  | support | Join my discord server for more support, or if you just wanna talk about jb |
 |  | prefs | prints the saved prefs (if any) |
+|  | full restart | start a new, nested instance of jailm8 |
+|  | clisetup | allow jailm8 to be run from anywhere | 
 
 # If its not open-source, whats this repo for?
 This repo contains (most of) the precompiled binaries for the tools included above. Jailm8.exe will download these files if you choose an option that requires them.
