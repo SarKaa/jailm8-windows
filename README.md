@@ -19,12 +19,17 @@ I got to work, compiling various different jailbreak tools, and making a small w
 
 In short, its a minimal frontend, that sets everything up for you, for various tools for windows.
 
+# Why would I use this?
+Some of these tools can be hard to find, so having one app download and set them up for you is very useful. I understand some of you will just download the tools yourself, which by all means is what you could. With libimobiledevice, there are things like apple mobiledevice support which you have to take into account, and if you have a different version of itunes installed, it can be hard finding out whats causing the problem. Jailm8 will check and install everything for you. Jailm8 has some tools fully built in and integrated, like ideviceinfo. It has a scrollable screen, it asks if you want to dump it, and keeps things simple. Its also nice to just have a few different tools in the same place.
+
 # tools included
 I have pre-compiled the following programs, and they will be downloaded automatically when needed.
 
 • Project sandcastle android
 
 • Project sandcastle linux
+
+• futurerestore
 
 libimobiledevice programs (precompiled .net version):
 
@@ -37,8 +42,6 @@ libimobiledevice programs (precompiled .net version):
   • ideviceinfo
 
   • Idevice_id
-
-  • futurerestore
 
   • ideviceprovision
 
@@ -121,4 +124,4 @@ Project sandcastle binaries from [here](https://github.com/corellium/projectsand
 
 Apple Mobile Device Support 64 extracted from the iTunes setup EXE (from apple, not from the microsoft store)#
 
-[Futurerestore](https://github.com/opa334/futurerestore)
+[Futurerestore](https://github.com/opa334/futurerestore) compiled for windows by @opa334
