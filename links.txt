@@ -1,6 +1,0 @@
-This file contains links to the various downloadable resources
-Project sandcastle [android] - https://github.com/SarKaa/jailm8-windows/raw/main/psc-android.zip
-Project sandcastle [linux] - https://github.com/SarKaa/jailm8-windows/releases/download/0.0.1/psc-linux.zip
-Libimobiledevice - https://github.com/SarKaa/jailm8-windows/raw/main/libimobiledevice.zip
-Menu - https://github.com/SarKaa/jailm8-windows/raw/main/menu
-Apple Mobile Device Support 64 - https://github.com/SarKaa/jailm8-windows/releases/download/0.9.5.5/amds64.zip
