@@ -1,16 +1,14 @@
 CHANGELOG:
-Made sure the menu function is run from the working directory
-Cleaned up the way some of the functions work
-Now added an option to let you run jailm8 from command prompt anywhere (clisetup)
-Allows you to use the ideviceinfo dump function from the cli interface
-Cleaned up the way control c works
-control c no longer kills all child processes
-Now allows creating a new, nested instance of jailm8 by fully restarting
-Changed the iproxy command so that it creates a new ssh windows and the iproxy connection simultaneously
-Added a loading indicator right at startup (only for running jailm8 without cli args), to allow for finding problems easily
-Now outputs all libimobiledevice errors to stdout instead of stderr
-Fixed jailm8 hanging at the ascii screen when wifi isn't connected
-Format the help texts properly
-Fixed menu entry for clean not working as expected
-Removed debug option as it wasn't as useful as the others
-Added futurerestore by opa instead of debug
+Fixed futurerestore not working in startup
+Improved the way prefs are parsed
+Now doesn't pipe the installer output to more if run from the cli interface
+After I added the misc folder in the last release, I now moved the menu and preference resources to it, to keep things neat
+NOTE: It is recommended to clean resources to delete all old files
+Cleaned up all misc file parsing
+Also doesn't pipe the info output to more when running from cli
+Outputs dump location for info dump function
+Major cleanup in almost every function
+Now stores amds64 in misc too
+Added downloading indicators
+Comletely reworked downloads, so they now get the resources straight from the original source
+Now also updates futurerestore in the update command
