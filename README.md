@@ -104,7 +104,9 @@ This repo also hosts some of the files used for the update checker, these are no
 
 Not all the files are kept in the source code part, some files are too big.
 
-For the links to every resource, check the links.txt file
+For the links to every resource, check the resource-links file
+
+This repo is also key to the app working, as it is where it obtains all the links it needs to work properly
 
 # Whats it written in?
 Actually, most of the functions are batch functions, but the overall app is held together by c. This keeps the app nice and small, but also lets jailm8 integrate all the tools into the app much quicker. Its compiled with mingw. Most of the time, it will act like batch, but the C parts handle startup and exit. I highly suggest using the exit option (14 on menu) instead of simply pressing the cross, just to allow the app to close properly.
