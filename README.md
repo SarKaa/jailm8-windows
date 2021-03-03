@@ -126,4 +126,4 @@ Project sandcastle binaries from [here](https://github.com/corellium/projectsand
 
 Apple Mobile Device Support 64 extracted from the iTunes setup EXE (from apple, not from the microsoft store)#
 
-[Futurerestore](https://github.com/marijuanARM/futurerestore/) compiled for windows with opa334's magic windows compile script
+[Futurerestore](https://github.com/marijuanARM/futurerestore/) static binaries precompiled
