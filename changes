@@ -1,5 +1,5 @@
 CHANGELOG:
-Fixed bug where libimobiledevice wouldn't work after updating
-Now iproxy doesn't start a new windows for the ssh connection
-Fixed some bugs that could have caused crashes
-Now uses the new futurerestore build
+Fixed futurerestore not working after update
+Now allows sending one argument to iproxy, allowing for a one word ssh command to be run
+Now doesn't print an error message when wifi isn't connected when its unnecessary
+Now lets you copy all provision profiles to working directory by just typing copy
