@@ -1,5 +1,6 @@
 CHANGELOG:
-Fixed futurerestore not working after update
-Now allows sending one argument to iproxy, allowing for a one word ssh command to be run
-Now doesn't print an error message when wifi isn't connected when its unnecessary
-Now lets you copy all provision profiles to working directory by just typing copy
+now allows sending up to 8 arguments 
+re-ordered arg sending, now processes exe name first, and then args
+Now prevents multiple instances of jailm8 to be run at the same time, as this caused crashes before
+Now reverses a port to the idevice when using iproxy, so you can connect to the ssh server on your computer over usb (port 22 on the computer is proxied to 2222 on the idevice)
+Now pauses for a second when "full[y] restart[ing]" to avoid crashes due to overlaps in instances
