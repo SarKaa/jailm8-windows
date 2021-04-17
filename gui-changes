@@ -1,0 +1,7 @@
+Added option to check for backend update instead of redownload
+Added more installer functions, made possible because of the ability to send 8 arguments to backend now
+Now doesn't freeze the app when running installer options after the backend is no longer needed.*
+Added a submenu for the info functions, it now lets you see the info in a command prompt window as well us dump it to a file.
+Fixed bug with the AMDS option not showing output
+
+*The GUI will freeze while the backend is being used, this is to prevent any errors regarding multiple instances of the backend
