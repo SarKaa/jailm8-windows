@@ -1,7 +1,12 @@
-Added option to check for backend update instead of redownload
-Added more installer functions, made possible because of the ability to send 8 arguments to backend now
-Now doesn't freeze the app when running installer options after the backend is no longer needed.*
-Added a submenu for the info functions, it now lets you see the info in a command prompt window as well us dump it to a file.
-Fixed bug with the AMDS option not showing output
-
-*The GUI will freeze while the backend is being used, this is to prevent any errors regarding multiple instances of the backend
+Fixed all the alert box titles being in caps (I have no clue why they're like that)
+Added function to check for frontend update too (make sure the exe name doesn't contain spaces)
+Renamed App Installer submenu to App Tools
+Now prevents the backend from being modified (deleted/renamed) while the gui is running
+Fixed issue with ^ not happening when backend is being downloaded
+Used cleaner approach to check if backend exists
+Minimised memory usage of both cli and gui releases, it maxes at around 12.5 mb, but stays at 7.4 mb when on the menu
+Moved both update checkers to a submenu
+Added a submenu to see the latest changelog, for both the GUI and CLI version
+Now checks for an internet connection from the GUI when the backend can't (for some functions, not all)
+Increased max string size for showing output, if any line contains more than 256 character, or the total output of a function is more than 1026, jailm8 will crash
+Renamed AMDS option to Apple Mobile Device Support 64, for clarity
