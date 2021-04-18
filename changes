@@ -1,12 +1,8 @@
 CHANGELOG:
-Added check-update function to be run from cli interface
-Now returns error level 1 if it detects another instance of jailm8
-Tried to get the app to return the return value of the actual commands, but its not very reliable
-cleaned up exit protocols
-sped up running without args
-Now doesn't store args in memory if there are too many anyways
-Now allows jailm8 to be run as admin without crashing
-Now doesn't load futurerestore links if run from the terminal (might be a bit buggy)
-When using clisetup, you no longer need to manually copy the script, but you do need admin rights
-Added a line in stats regarding admin rights
-Removed annoying extra line when running stats from cli
+Fine tuned clisetup to only needing 3 lines, and use a much cleaner approach
+Cleaned up several startup functions
+Minimised memory usage of both cli and gui releases
+Cleaned up exit protocols to be quicker
+Now restores the terminal to the colour it was when jailm8 was started, instead of changing the entire console colour
+Disabled control c altogether, it was being annoying
+Several speed improvements all over the app
