@@ -1,8 +1,18 @@
 CHANGELOG:
-Fine tuned clisetup to only needing 3 lines, and use a much cleaner approach
-Cleaned up several startup functions
-Minimised memory usage of both cli and gui releases
-Cleaned up exit protocols to be quicker
-Now restores the terminal to the colour it was when jailm8 was started, instead of changing the entire console colour
-Disabled control c altogether, it was being annoying
-Several speed improvements all over the app
+Now checks for too many arguments first, just to be quicker
+Now shows the update texts in the same window as jailm8
+Cleaned up startup function
+Removed unncessary functions and headers
+Speed improvements
+Much cleaner code
+Reworked how resources are loaded, much more efficient now
+Small memory improvements
+Grammar corrections
+Now shows the multiple instance error as a gui box when the app is not run from cmd
+Now doesn't pause when running jailm8 from the wrong directory
+Removed jailm8 is being updated text
+Now uses standard windows API for a lot more stuff
+Added text that shows info when you hover on the .exe
+Added ability to send arguments to id, date and name. It will forward them to the libimobiledevice .exe used for the function, use the arg -h for more info
+
+*If you're wondering how all these speed improvements are happening, its due to to HUGE background changes, most of the time by using standard windows api to do stuff mor efficiently
