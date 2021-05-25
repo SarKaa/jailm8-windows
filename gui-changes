@@ -1,10 +1,8 @@
-Now shows the changelog when updating the backend
-Speed improvements
-Added hotkey to see backend version
-When running the cli options, it will now show an alert about multiple instances instead of just crashing
-Now only works with windows 10 (the backend doesn't play nice with lower versions)
-Added submenu for id, date and name, now allowing you to use those functions on network devices as well
-Now added support for network devices for most provision and app installer options
-Added a few nested submenus (sub-submenus) to keep it neat
-Added separators in the menus, to keep things neat and just to change up the look
-Added captions in the "Tools" drop-down menu
+Disabled maximise button, it was buggy anyways
+Changed about to credits
+Moved credits to app and moved hotkeys to help
+Creditted the creator of the icon
+Now doesn't run the backend to get the version info
+Added diagnostic check function to check for errors with jailm8
+Added ability to reboot, shutdown and deep sleep device (using idevicediagnostics)
+Added several idevicediagnostics functions (too many)
