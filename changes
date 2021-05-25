@@ -1,18 +1,14 @@
 CHANGELOG:
-Now checks for too many arguments first, just to be quicker
-Now shows the update texts in the same window as jailm8
-Cleaned up startup function
-Removed unncessary functions and headers
-Speed improvements
-Much cleaner code
-Reworked how resources are loaded, much more efficient now
-Small memory improvements
-Grammar corrections
-Now shows the multiple instance error as a gui box when the app is not run from cmd
-Now doesn't pause when running jailm8 from the wrong directory
-Removed jailm8 is being updated text
-Now uses standard windows API for a lot more stuff
-Added text that shows info when you hover on the .exe
-Added ability to send arguments to id, date and name. It will forward them to the libimobiledevice .exe used for the function, use the arg -h for more info
-
-*If you're wondering how all these speed improvements are happening, its due to to HUGE background changes, most of the time by using standard windows api to do stuff mor efficiently
+Removed useless feature in provision for dumping all profiles (from when jailm8 only supported 2 arguments)
+Removed loading indicator, jailm8 is way too fast for that now :flex:
+EVEN MORE speed improvements, now its soooo fast you might not even see the "starting up..." text
+Memory improvements
+Now actually returns the exit value of the tool you're using as the jailm8 return value
+Now returns 1 for more problems
+Can now send unlimited arguments to jailm8!!! (idk what you're gonna do with 1000 arguments but its cool)
+Added idevicediagnostics to advanced
+Now returns -1 if no device is connected when running info and entering recovery (that needs to be done manually)
+General code cleanup
+Improved memory limits, now doesn't have any apart from the native windows ones
+Moved the colour reset function to the cleanup function (acts the same way, its just better and more reliable)
+Now doesn't need to load the links at the beginning, speeding up startup
