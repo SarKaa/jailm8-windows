@@ -81,6 +81,7 @@ You can put either the number or command into the jailm8 interface
 | 17. | color | shows available colour schemes for jailm8 |
 | 18. | update | updates downloaded resources from this repo |
 | 19. | clean | deletes downloaded resources |
+|  | diagnostics | idevicediagnostics utility |
 |  | version | prints current jailm8 version, latest jailm8 version and connected device's ios version if connected |
 |  | restart | restart's jailm8, this isn't that important a command so I didn't add a menu entry for this |
 |  | stats | prints a list of useful stats from the app itself, like how many resources have been saved |
