@@ -1,14 +1,10 @@
 CHANGELOG:
-Removed useless feature in provision for dumping all profiles (from when jailm8 only supported 2 arguments)
-Removed loading indicator, jailm8 is way too fast for that now :flex:
-EVEN MORE speed improvements, now its soooo fast you might not even see the "starting up..." text
-Memory improvements
-Now actually returns the exit value of the tool you're using as the jailm8 return value
-Now returns 1 for more problems
-Can now send unlimited arguments to jailm8!!! (idk what you're gonna do with 1000 arguments but its cool)
-Added idevicediagnostics to advanced
-Now returns -1 if no device is connected when running info and entering recovery (that needs to be done manually)
-General code cleanup
-Improved memory limits, now doesn't have any apart from the native windows ones
-Moved the colour reset function to the cleanup function (acts the same way, its just better and more reliable)
-Now doesn't need to load the links at the beginning, speeding up startup
+Now checks for wifi whenever its needed, instead of just at startup
+This means that jailm8 is less vulnerable to crashes and glitches when the wifi status changes while it is running
+Iproxy now uses two args as the ports it asks for, E.G. If you want to proxy the ssh server to port 2222, type "jailm8 iproxy 2222 22"
+Made jailm8 use the initial wifi test result for the startup functions, so that it doesn't check twice
+Made all terminal output green, just cos white looked boring (this won't affect the colour scheming)
+Addded colour to lots of the app, where it won't affect the colour scheming
+Changed the way colour schemes are applied, you will have to reset the colour scheme for it to work in this release
+Colour coded the help text
+Made sure the default colours match the jailm8 colour scheme
