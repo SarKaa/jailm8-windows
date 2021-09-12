@@ -1,8 +1,13 @@
-Disabled maximise button, it was buggy anyways
-Changed about to credits
-Moved credits to app and moved hotkeys to help
-Creditted the creator of the icon
-Now doesn't run the backend to get the version info
-Added diagnostic check function to check for errors with jailm8
-Added ability to reboot, shutdown and deep sleep device (using idevicediagnostics)
-Added several idevicediagnostics functions (too many)
+Now stores the backend within the GUI executable, so it doesn't have to be downloaded
+Switched to G++ for compilation, allowing ^^ to happen
+Now checks if the GUI is saved as jailm8.exe, as that would lead to issues
+Added an under-the-hood cmd window, so you can manually fix crashes and freezes if needed
+Now logs all backend output to the background cmd window, allowing you to copy it if needed
+Centred OK button in credits box
+Reverted credits pop up to the same style as the rest of the GUI
+Now uses a cleaner way to save the backend as a resource, making startup quicker even when the backend needs to be extracted
+Fixed memory leak when extracting backend
+If the backend doesn't exist already, it will be loaded in as a temporary file and deleted later
+The terminal log will now show all output as soon as it is returned by jailm8, instead of waiting for the end of the function
+Now says "no devices are connected" instead of a blank icon when using the UDID functions
+Now shows an error icon in the alert box when encountering certain messages
