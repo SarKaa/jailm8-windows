@@ -121,7 +121,7 @@ If you select yes, it will close jailm8 and open a command prompt window where t
 Its kept small by keeping all resources to be downloaded, so nothing is kept in the app itself, apart from links. The app itself doesn't have a gui, so theres no excess code needed. It is also kept small by using an optimum combination of C and Batch code, keeping the need for extra compilable code short. 
 
 # Is there a GUI?
-YES! Well, kinda. You can grab it from releases. The CLI app is used as a sort of backend, which the GUI "frontend" passes commands to. You still need to have the cli app for the gui, but you won't ever need to touch it, as long as it is saved as jailm8.exe, and in the same folder as the GUI. It doesn't matter what you save the GUI as. The GUI is much newer, and is kind of a side project, so it has a few more bugs.
+YES! Well, kinda. You can grab it from releases. The CLI app is used as a sort of backend, which the GUI "frontend" passes commands to. It doesn't matter what you save the GUI as, as long as its not "jailm8.exe". The GUI is much newer, and is kind of a side project, so it has a few more bugs.
 
 # sources
 Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
