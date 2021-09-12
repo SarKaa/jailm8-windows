@@ -1,10 +1,8 @@
 CHANGELOG:
-Now checks for wifi whenever its needed, instead of just at startup
-This means that jailm8 is less vulnerable to crashes and glitches when the wifi status changes while it is running
-Iproxy now uses two args as the ports it asks for, E.G. If you want to proxy the ssh server to port 2222, type "jailm8 iproxy 2222 22"
-Made jailm8 use the initial wifi test result for the startup functions, so that it doesn't check twice
-Made all terminal output green, just cos white looked boring (this won't affect the colour scheming)
-Addded colour to lots of the app, where it won't affect the colour scheming
-Changed the way colour schemes are applied, you will have to reset the colour scheme for it to work in this release
-Colour coded the help text
-Made sure the default colours match the jailm8 colour scheme
+Tidied up internal resources
+App resources no longer clash with the GUI resources
+Sped up startup
+Cleaned up startup processes
+Added safety measures for checking when downloading and extracting resources doesn't work properly
+Fixed memory leak that occurs just before exit
+YOU CAN NOW USE MULTIPLE INSTANCES OF JAILM8
