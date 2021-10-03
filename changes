@@ -1,8 +1,6 @@
 CHANGELOG:
-Tidied up internal resources
-App resources no longer clash with the GUI resources
-Sped up startup
-Cleaned up startup processes
-Added safety measures for checking when downloading and extracting resources doesn't work properly
-Fixed memory leak that occurs just before exit
-YOU CAN NOW USE MULTIPLE INSTANCES OF JAILM8
+Prevents rare crash that occurs when using multiple instances
+Sped up startup by maximising the use of windows api calls instead of ported mingw ones
+Fixed several memory leaks around the app
+Cleaned up the way in which multiple instances work
+Now uses a higher resolution icon, increasing the size of the app drastically
