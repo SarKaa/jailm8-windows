@@ -1,6 +1,8 @@
-Now checks for the unkown error in the list pairings functions
-Added an actual GUI interface with buttons, not just a toolbar
-Sped up startup by maximising the use of windows api calls instead of ported mingw ones
-Now uses cleaner way of extracting backend
-Now tells you if there was an error while extracting the backend
-Now uses a higher resolution icon, increasing the size of the app drastically
+Now doesn't freeze up when apple mobile device 64 isn't installed (needs latest version of backend)
+Improved memory usage drastically
+Now shows output in actual window, instead of a message box
+Resized buttons/button spacing
+Removed documentation button
+Now performs the "stats" function at startup 
+Improved downloading indicators, now shows it in the window and automatically updates status
+Might take some extra time to startup
