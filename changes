@@ -1,6 +1,14 @@
 CHANGELOG:
-Prevents rare crash that occurs when using multiple instances
-Sped up startup by maximising the use of windows api calls instead of ported mingw ones
-Fixed several memory leaks around the app
-Cleaned up the way in which multiple instances work
-Now uses a higher resolution icon, increasing the size of the app drastically
+Now doesn't prompt you to install amds if you are running it from a command prompt (to stop gui crashing)
+Fixed false positive when checking if AMDS64 is installed
+Now checks for the actual amds64 files instead of just the folder
+Improved memory usage, now only uses as much as it needs
+Startup and exit protocols might take a bit longer if your machine doesn't have enough memory
+Decreased the memory needed while running (still needs the same memory for startup)
+Removed a completely useless utilities that were sitting there doubling the memory usage
+Major code re-organisation
+Fixed unnecessary cleanup at startup, which also led to memory not being allocated properly
+Removed unnecessary functions from cleanup protocols
+Added error checks around the app, prevents crashes
+Minimised memory leaks
+TOTAL MEMORY USAGE DECREASE: 22% (~0.8mb)
