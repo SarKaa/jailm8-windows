@@ -6,3 +6,7 @@ Removed documentation button
 Now performs the "stats" function at startup 
 Improved downloading indicators, now shows it in the window and automatically updates status
 Might take some extra time to startup
+Now shows info and diagnostics info in a text box, instead of a cmd window
+Now shows an indicator if no device is connected when running info/diagnostics/installer
+Switched hotkey ^H to hotkey info
+Refined hotkey descriptions
