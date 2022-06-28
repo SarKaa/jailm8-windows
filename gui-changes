@@ -1,12 +1,11 @@
-Now doesn't freeze up when apple mobile device 64 isn't installed (needs latest version of backend)
-Improved memory usage drastically
-Now shows output in actual window, instead of a message box
-Resized buttons/button spacing
-Removed documentation button
-Now performs the "stats" function at startup 
-Improved downloading indicators, now shows it in the window and automatically updates status
-Might take some extra time to startup
-Now shows info and diagnostics info in a text box, instead of a cmd window
-Now shows an indicator if no device is connected when running info/diagnostics/installer
-Switched hotkey ^H to hotkey info
-Refined hotkey descriptions
+Added downloading indicators where previously wasnt possible
+Sped up startup
+Now added option to request admin rights
+Tried to completely get rid of those clunky messageboxes
+Fixed some processes giving some dodgy characters as output
+Replaced app installer hotkey with request admin
+Added progress bar at the bottom
+Removed repetitive code, reducing app size
+Resizes window at startup if stats display is too large
+Fixed idevicepair version function
+Now appends each line as it is outputted by a multiline func
