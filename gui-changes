@@ -1,11 +1,4 @@
-Added downloading indicators where previously wasnt possible
-Sped up startup
-Now added option to request admin rights
-Tried to completely get rid of those clunky messageboxes
-Fixed some processes giving some dodgy characters as output
-Replaced app installer hotkey with request admin
-Added progress bar at the bottom
-Removed repetitive code, reducing app size
-Resizes window at startup if stats display is too large
-Fixed idevicepair version function
-Now appends each line as it is outputted by a multiline func
+Renamed update resources function to "Redownload/Update Resources"
+Works much better without backend existing separately
+Theoretically works with backend saved as jailm8.tmp but not supported by any functions yet
+*It is now recommended to primarily use the frontend as the backend will eventually just be part of the gui
