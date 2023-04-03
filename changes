@@ -1,8 +1,4 @@
 CHANGELOG:
-Fixed a memory allocation crash
-Allowed for running from temp directory if saved as .tmp file
-Improved cleanup protocols
-Improved resource management
-Changed language to UK english
-Changed the way error codes work
-Massive change in how resources work
+Cleaner functions instead of messy old ones
+Fixed some crashes due to embedded resources
+Works better as a .tmp file than previous releases, but might be buggy for now
