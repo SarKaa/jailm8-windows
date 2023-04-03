@@ -128,6 +128,6 @@ Project sandcastle binaries from [here](https://github.com/corellium/projectsand
 
 [libimobiledevice](https://github.com/libimobiledevice-win32/imobiledevice-net), precompiled
 
-Apple Mobile Device Support 64 extracted from the iTunes setup EXE (from apple, not from the microsoft store)#
+Apple Mobile Device Support 64 extracted from the iTunes setup EXE (downloaded using the apple software update tool that comes with itunes)
 
 [Futurerestore](https://github.com/marijuanARM/futurerestore/) static binaries precompiled
