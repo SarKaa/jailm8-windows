@@ -1,6 +1,7 @@
 Resources download links:
 libimobiledevice: - https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.3.17/libimobiledevice.1.2.1-r1122-win-x86.zip
 futurerestore: - https://github.com/marijuanARM/futurerestore/releases/download/194/futurerestore-v194-windows.zip
+sideserver: - https://github.com/SideStore/SideServer-Windows/releases/latest/download/SideServer.Installer.zip
 jitterbugpair: - https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-win64.zip
 Project sandcastle [android] - https://github.com/SarKaa/jailm8-windows/raw/main/psc-android.zip
 Project sandcastle [linux] - https://github.com/SarKaa/jailm8-windows/releases/download/0.0.1/psc-linux.zip
