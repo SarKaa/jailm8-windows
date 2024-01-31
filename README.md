@@ -22,38 +22,7 @@ In short, its a minimal frontend, that sets everything up for you, for various t
 # Why would I use this?
 Some of these tools can be hard to find, so having one app download and set them up for you is very useful. I understand some of you will just download the tools yourself, which by all means is what you could. With libimobiledevice, there are things like apple mobiledevice support which you have to take into account, and if you have a different version of itunes installed, it can be hard finding out whats causing the problem. Jailm8 will check and install everything for you. Jailm8 can make some tasks much easier. A prime example of this is when using ideviceenterrecovery. Normally you have to get your device's udid and manually enter it into the utility, but jailm8 does everything for you. Once in recovery mode, the tools for interacting with the device in recovery mode are opened straight away. Jailm8 has some tools fully built in and integrated, like ideviceinfo. It has a scrollable screen, it asks if you want to dump it, and keeps things simple. Its also nice to just have a few different tools in the same place.
 
-# tools included
-I have pre-compiled the following programs, and they will be downloaded automatically when needed.
-
-• Project sandcastle android
-
-• Project sandcastle linux
-
-• futurerestore
-
-libimobiledevice programs (precompiled .net version):
-
-  • idevicepair
-
-  • iproxy
-
-  • idevicename
-
-  • ideviceinfo
-
-  • Idevice_id
-
-  • ideviceprovision
-
-  • idevicedate
-  
-  • irecovery (with ideviceenterrecovery)
-  
-  • ideviceinstaller
-  
- (not all libimobiledevice utilites are included in the app itself, but can be used with the "diy" command, see below)
-
-# Can I use other libimobiledevice tools 
+# Can I use any other libimobiledevice tools 
 YES!
 
 You can use the diy command to move the libimobiledevice folder to the working directory (where jailm8.exe is). You can then cd into this directory with command prompt or powershell, and run the exe's. For documentation on the guides, check the [libimobiledevice website](https://github.com/libimobiledevice-win32/imobiledevice-net)
@@ -82,10 +51,16 @@ You can put either the number or command into the jailm8 interface
 | 18. | update | updates downloaded resources from this repo |
 | 19. | clean | deletes downloaded resources |
 |  | diagnostics | idevicediagnostics utility |
+|  | idevicesetlocation | idevicedsetlocation utility |
+|  | idevicedevmodectl | idevicedevmodectl utility |
 |  | version | prints current jailm8 version, latest jailm8 version and connected device's ios version if connected |
 |  | restart | restart's jailm8, this isn't that important a command so I didn't add a menu entry for this |
 |  | stats | prints a list of useful stats from the app itself, like how many resources have been saved |
 |  | amds64 | Lets you trigger the Apple Mobile Device Support installer manually |
+|  | appleupdater | Lets you trigger the Apple Spftware Update installer manually |
+|  | itunes | Lets you install iTunes from Apple servers |
+|  | jitterbugpair | jitterbugpair utility |
+|  | sideserver | downloads an installer for sideserver |
 |  | startup | lets you set a command to be run automatically when starting jailm8 |
 |  | support | Join my discord server for more support, or if you just wanna talk about jb |
 |  | prefs | prints the saved prefs (if any) |
@@ -126,7 +101,7 @@ YES! Well, kinda. You can grab it from releases. The CLI app is used as a sort o
 # sources
 Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
 
-[libimobiledevice](https://github.com/libimobiledevice-win32/imobiledevice-net), precompiled
+[libimobiledevice](https://github.com/libimobiledevice-win32/imobiledevice-nethttps://github.com/L1ghtmann/libimobiledevice), precompiled
 
 Apple Mobile Device Support 64 extracted from the iTunes setup EXE (downloaded using the apple software update tool that comes with itunes)
 
