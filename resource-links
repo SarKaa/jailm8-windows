@@ -3,6 +3,7 @@ libimobiledevice: - https://github.com/SarKaa/jailm8-windows/releases/download/1
 futurerestore: - https://github.com/marijuanARM/futurerestore/releases/download/194/futurerestore-v194-windows.zip
 sideserver: - https://github.com/SideStore/SideServer-Windows/releases/latest/download/SideServer.Installer.zip
 jitterbugpair: - https://github.com/osy/Jitterbug/releases/download/v1.3.1/jitterbugpair-win64.zip
+iTunes: - https://secure-appldnld.apple.com/itunes12/001-97787-20210421-F0E5A3C2-A2C9-11EB-A40B-A128318AD179/iTunes64Setup.exe
 Project sandcastle [android] - https://github.com/SarKaa/jailm8-windows/raw/main/psc-android.zip
 Project sandcastle [linux] - https://github.com/SarKaa/jailm8-windows/releases/download/0.0.1/psc-linux.zip
 Menu - https://github.com/SarKaa/jailm8-windows/raw/main/menu
