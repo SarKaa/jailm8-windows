@@ -1,4 +1,10 @@
 CHANGELOG:
-Cleaner functions instead of messy old ones
-Fixed some crashes due to embedded resources
-Works better as a .tmp file than previous releases, but might be buggy for now
+More efficient argument passthrough
+Added jitterbugpair function
+Added sideserver setup function
+Now no longer hides resources folder
+Doesn't lock user out if no menu file is present without wifi
+Added idevicesetlocation and idevicedevmodectl (requires limd update)
+Now uses apple server to download itunes and extract amds64
+Can now install itunes and apple software update as well as amds64
+Fixed info and recovery crashes caused by latest limd
