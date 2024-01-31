@@ -1,5 +1,8 @@
-Renamed update resources function to "Redownload/Update Resources"
-Works much better without backend existing separately
-Theoretically works with backend saved as jailm8.tmp but not supported by any functions yet
-*It is now recommended to primarily use the frontend as the backend will eventually just be part of the gui
-Fixed updates not working on some occasions
+Terminates properly if saved as jailm8.exe
+Replaces checkra1n button with sideserver setup button
+Added jitterbugpair tools 
+Added idevicesetlocation and idevicedevmodectl integration
+Fixes issues with the new libimobiledevice breaking some functions
+Fixed pairing list function (requires latest limd)
+Can now install itunes/apple software update
+Any opened CLI windows will no longer freeze the rest of the app
