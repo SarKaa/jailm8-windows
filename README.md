@@ -101,7 +101,7 @@ YES! Well, kinda. You can grab it from releases. The CLI app is used as a sort o
 # sources
 Project sandcastle binaries from [here](https://github.com/corellium/projectsandcastle/tree/master/loader) compiled by me
 
-[libimobiledevice](https://github.com/libimobiledevice-win32/imobiledevice-nethttps://github.com/L1ghtmann/libimobiledevice), precompiled
+[libimobiledevice](https://github.com/SarKaa/libimobiledevice), automatically compiled in a fork of a fork of libimobiledevice. The forks only add automated compilation workflows
 
 Apple Mobile Device Support 64 extracted from the iTunes setup EXE (downloaded using the apple software update tool that comes with itunes)
 
